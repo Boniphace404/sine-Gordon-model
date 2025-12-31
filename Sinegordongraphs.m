@@ -14,8 +14,8 @@ hold on
 plot(-2*pi, 0, 'ro', MarkerSize=8, MarkerFaceColor='r');
 plot( 2*pi, 0, 'ro', MarkerSize=8, MarkerFaceColor='r');
 plot( 0, 0, 'ro', MarkerSize=8, MarkerFaceColor='r');
-text( -2*pi+0.6, -0.1, '$\phi = -2\pi$', HorizontalAlignment='center', Interpreter='latex',FontSize=20);
-text( 2*pi-0.5, -0.1, '$\phi =  2\pi$', HorizontalAlignment='center',Interpreter='latex',FontSize=20);
+text( -2*pi+1.3, -0.1, '$\phi = -2\pi$', HorizontalAlignment='center', Interpreter='latex',FontSize=20);
+text( 2*pi-1.1, -0.1, '$\phi =  2\pi$', HorizontalAlignment='center',Interpreter='latex',FontSize=20);
 text( 0, -0.1, '$\phi =  0$', HorizontalAlignment='center',Interpreter='latex',FontSize=20);
 hold off
 
@@ -34,9 +34,9 @@ grid on
 
 hold on
 plot([-4, -2], [0.03, 0.03], 'r--', LineWidth=2);
-text(-1.5, 0.3, '$\phi \rightarrow 0$', HorizontalAlignment='center',fontsize=20, Interpreter='latex');
+text(-1, 0.3, '$\phi \rightarrow 0$', HorizontalAlignment='center',fontsize=20, Interpreter='latex');
 plot([ 2, 4], [ 2*pi, 2*pi], 'r--', LineWidth=2);
-text( 1.5,  6.3, '$\phi \rightarrow  2\pi$', HorizontalAlignment='center',fontsize=20, Interpreter='latex');
+text( 1,  6, '$\phi \rightarrow  2\pi$', HorizontalAlignment='center',fontsize=20, Interpreter='latex');
 hold off
 
 
@@ -54,7 +54,7 @@ grid on
 
 hold on
 plot([-4, -2],[ -0.03, -0.03], 'r--', LineWidth=2);
-text(-1.5, -0.3, '$\phi \rightarrow 0$', HorizontalAlignment='center',fontsize=20, Interpreter='latex');
+text(-1, -0.3, '$\phi \rightarrow 0$', HorizontalAlignment='center',fontsize=20, Interpreter='latex');
 plot([ 2, 4], [-2*pi,-2*pi] , 'r--', LineWidth=2);
-text( 1.5,  -6.3, '$\phi \rightarrow  2\pi$', HorizontalAlignment='center',fontsize=20, Interpreter='latex');
+text( 1,  -6, '$\phi \rightarrow  2\pi$', HorizontalAlignment='center',fontsize=20, Interpreter='latex');
 hold off
